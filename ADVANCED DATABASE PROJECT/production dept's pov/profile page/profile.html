@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Boxicons -->
+	<link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Remix Icons -->
+	<link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
+	<!-- Coca-Cola Font -->
+	<link href="https://fonts.cdnfonts.com/css/coca-cola-ii" rel="stylesheet">
+    <!-- CSS  -->
+    <link rel="stylesheet" type="text/css" href="profStyle.css">
+    <title>Coca-Cola</title>
+</head>
+<body>
+    	<!-- SIDEBAR -->
+	<section id="sidebar">
+		<a href="#" class="brand">
+			<i class="ri-drinks-2-line"></i>
+			<span class="text">Coca-Cola</span>
+		</a>
+		<ul class="side-menu top">
+			<li class="active">
+				<a href="#">
+					<i class='bx bxs-dashboard'></i>
+					<span class="text">Dashboard</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<i class='bx bx-current-location' ></i>
+					<span class="text">Location</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<i class='bx bx-coin-stack'></i>
+					<span class="text">Unit</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<i class='bx bx-slider-alt'></i>
+					<span class="text">Quality Control</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<i class='bx bxs-calendar'></i>
+					<span class="text">Production Schedule</span>
+				</a>
+			</li>
+		</ul>
+		<ul class="side-menu">
+			<li>
+				<a href="#">
+					<i class='bx bx-user-circle' ></i>
+					<span class="text">Profile</span>
+				</a>
+			</li>
+			<li>
+				<a href="#" class="logout">
+					<i class='bx bxs-log-out-circle' ></i>
+					<span class="text">Logout</span>
+				</a>
+			</li>
+		</ul>
+	</section>
+	<!-- SIDEBAR -->
+    
+    <!-- CONTENT -->
+    <section id = "content">
+        <div class="wrapper">
+            <form action=""> 
+                <h1>Profile Settings</h1>
+                <div class="wrapper">
+    
+                    <div id="horizontal-line"></div>
+                    <h2>Personal Details</h2>
+                    <div class="input-box">
+                        <label>Username</label>
+                        <input type="text" placeholder="" required> 
+                    </div>
+                    <div class="input-box">
+                        <label>ID Number</label>
+                        <input type="text" placeholder="" required>
+                    </div>
+                    <div class="input-box">
+                        <label>Email</label>
+                        <input type="email" placeholder="" required>
+                    </div>
+                    <div class="input-box">
+                        <label>Department</label>
+                        <input type="text" placeholder="" required>
+                    </div>
+                </div> 
+            </form>
+        </div>
+    </section>
+    <script src="profile.js"></script>
+<!-- END OF ORDER PAGE -->
+</body>
+</html>
